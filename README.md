@@ -7,6 +7,7 @@ A computer-vision product that helps comic collectors decide whether a raw comic
 
 ## Public Build Plan
 
+- [Sample Dashboard / Prototype](index.html)
 - [Product Requirements](docs/PRD.md)
 - [Technical Architecture](docs/ARCHITECTURE.md)
 - [MVP Roadmap](docs/ROADMAP.md)

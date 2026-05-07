@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CoverGrail Prototype — Comic Pre-Grading Scanner</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav>
+      <div class="brand">CoverGrail</div>
+      <a href="docs/PRD.md">PRD</a>
+      <a href="docs/ARCHITECTURE.md">Architecture</a>
+      <a href="docs/GTM.md">GTM</a>
+    </nav>
+    <section class="hero-grid">
+      <div>
+        <p class="eyebrow">Idea of the Day prototype</p>
+        <h1>Know before you slab.</h1>
+        <p class="lede">A sample dashboard for comic collectors deciding whether a raw book is worth grading, pressing, or selling as-is.</p>
+        <div class="cta-row">
+          <a class="button primary" href="#dashboard">View sample scan</a>
+          <a class="button secondary" href="docs/ROADMAP.md">Build roadmap</a>
+        </div>
+      </div>
+      <aside class="score-card">
+        <span class="pill">Opportunity 9/10</span>
+        <span class="pill">Problem 9/10</span>
+        <span class="pill">Feasibility 8/10</span>
+        <span class="pill">Why now 9/10</span>
+        <div class="metric">
+          <strong>Cgc slabs</strong>
+          <span>4.4K volume · +817% growth</span>
+        </div>
+      </aside>
+    </section>
+  </header>
+
+  <main id="dashboard" class="dashboard">
+    <section class="panel scan-summary">
+      <div>
+        <p class="eyebrow">Sample scan</p>
+        <h2>Amazing Spider-Man #129</h2>
+        <p>Front cover, back cover, spine, and raking-light photos analyzed.</p>
+      </div>
+      <div class="grade-band">
+        <span>Predicted grade</span>
+        <strong>8.5–9.2</strong>
+        <em>Confidence 74%</em>
+      </div>
+    </section>
+
+    <section class="grid three">
+      <article class="panel decision submit">
+        <span>Recommendation</span>
+        <h3>Press, then submit</h3>
+        <p>Visible non-color-breaking bend and minor spine stress. Pressing could move the expected outcome closer to 9.2.</p>
+      </article>
+      <article class="panel">
+        <span>Expected value</span>
+        <h3>+$118 EV</h3>
+        <p>After estimated grading, pressing, shipping, and marketplace fees.</p>
+      </article>
+      <article class="panel">
+        <span>Pricing path</span>
+        <h3>$1.99 scan → $29/mo</h3>
+        <p>Three free scans create trust; unlimited scans monetize serious collectors.</p>
+      </article>
+    </section>
+
+    <section class="grid two">
+      <article class="panel comic-preview">
+        <div class="comic-card">
+          <div class="defect d1">spine ticks</div>
+          <div class="defect d2">corner blunting</div>
+          <div class="defect d3">cover rub</div>
+        </div>
+      </article>
+      <article class="panel">
+        <h3>Detected condition markers</h3>
+        <ul class="defects">
+          <li><strong>Spine stress:</strong> 6 visible ticks, 2 likely color-breaking</li>
+          <li><strong>Top-right corner:</strong> moderate blunting</li>
+          <li><strong>Cover surface:</strong> light rub near logo box</li>
+          <li><strong>Centering:</strong> acceptable; no severe miswrap</li>
+          <li><strong>Pressability:</strong> maybe — bend likely improvable</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="panel economics">
+      <h3>Submission economics</h3>
+      <div class="bars">
+        <div><span>Raw value</span><b style="width:42%">$320</b></div>
+        <div><span>Likely slab value</span><b style="width:78%">$590</b></div>
+        <div><span>Total costs</span><b class="cost" style="width:27%">$152</b></div>
+        <div><span>Expected net lift</span><b class="good" style="width:52%">$118</b></div>
+      </div>
+    </section>
+
+    <section class="grid three roadmap-mini">
+      <article class="panel"><h3>Week 1</h3><p>Concierge reports for 50 collector beta users.</p></article>
+      <article class="panel"><h3>Week 2–4</h3><p>Guided capture flow, AI report generator, and grade-band estimator.</p></article>
+      <article class="panel"><h3>90 days</h3><p>10K scans, public accuracy report, dealer beta, pressing partners.</p></article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Prototype mockup only. Not affiliated with CGC, CBCS, PSA, or any grading company.</p>
+  </footer>
+</body>
+</html>
