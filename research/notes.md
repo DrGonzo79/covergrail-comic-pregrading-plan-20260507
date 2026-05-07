@@ -1,6 +1,6 @@
 # Research Notes
 
-## IdeaBrowser Source
+## Idea of the Day Source
 
 - Email subject: `Idea of the Day: Comic book calculator`
 - Date: 2026-05-07 09:58 ET

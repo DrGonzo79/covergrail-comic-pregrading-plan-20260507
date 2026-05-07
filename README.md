@@ -1,6 +1,6 @@
 # CoverGrail — Comic Book Pre-Grading Scanner
 
-**IdeaBrowser Idea of the Day — 2026-05-07**  
+**Idea of the Day — 2026-05-07**  
 A computer-vision product that helps comic collectors decide whether a raw comic is worth submitting to CGC/CBCS before spending grading fees and waiting weeks.
 
 > Working premise: collectors overestimate condition under home lighting. CoverGrail asks for front cover, back cover, spine, and raking-light photos, then returns a predicted grade range, confidence score, defect map, and submit/press/sell-raw recommendation.

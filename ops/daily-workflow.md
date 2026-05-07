@@ -1,4 +1,4 @@
-# Daily IdeaBrowser Publishing Workflow
+# Daily Idea of the Day Publishing Workflow
 
 1. Search Gmail for the latest `from:notifications@mail.ideabrowser.com subject:"Idea of the Day"` message.
 2. If message ID has not been processed:
