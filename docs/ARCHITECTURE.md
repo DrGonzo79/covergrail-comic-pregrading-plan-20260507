@@ -36,6 +36,7 @@ Report Generator + Saved Library
 
 ### ML/CV Layer
 - Phase 1: GPT-4o / Gemini multimodal prompt pipeline + deterministic rubric engine.
+- Source-data targets: eBay sold listings, Heritage Auctions records, and GoCollect-style data where high-resolution photos can be matched to verified slab grades.
 - Phase 2: Fine-tuned defect detection model using YOLOv8/RT-DETR for visible defects.
 - Phase 3: Ensemble grade band model trained on known slabbed books and grader notes.
 

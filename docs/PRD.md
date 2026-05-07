@@ -65,15 +65,17 @@ Comic collectors decide whether to submit raw books for professional grading usi
 - Defect detection precision target: 0.70+ on visible spine/corner defects.
 
 ### Business Metrics
-- Paid conversion: 5–8% from free scans.
-- ARPU: $12–$29/mo collectors; $99–$299/mo shop tier.
+- Opportunity score target from source analysis: 9/10; feasibility target: 8/10.
+- Paid conversion: 5–8% from three free scans.
+- ARPU: $1.99/pay-per-scan users, $29/mo collector subscribers, $499/mo dealer accounts.
 - Partner lead revenue from pressing/cleaning referrals.
 
 ## 7. Pricing Hypothesis
 
-- Free: 3 scans/month, watermarked reports.
-- Collector Pro: $15/mo, 50 scans/month, saved library, value estimates.
-- Dealer: $99/mo, 1,000 scans/month, batch intake, CSV export.
+- Free: 3 scans on signup to create the first trust moment.
+- Pay-per-scan: $1.99 per prediction for casual collectors.
+- Collector Unlimited: $29/mo for frequent grading decisions and saved library.
+- Dealer: $499/mo for bulk scanning, estate-purchase triage, and submission-lot building.
 - Pressing partner marketplace: lead fee or rev share.
 
 ## 8. Key Product Principle

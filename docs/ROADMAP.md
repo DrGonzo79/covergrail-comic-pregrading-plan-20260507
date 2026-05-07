@@ -4,6 +4,7 @@
 
 - Build landing page with value prop: “Know before you slab.”
 - Interview 15 collectors/sellers/local comic shop owners.
+- Recruit a 50-collector beta cohort from Reddit/Facebook groups.
 - Collect 100 sample books: raw photos + known slab grades where possible.
 - Manually create 20 sample reports to test willingness to pay.
 
@@ -37,7 +38,7 @@ Deliverable: decision-support MVP.
 
 ## Weeks 5–8 — Accuracy/Data Moat
 
-- Partner with collectors for blinded before/after grading tests.
+- Partner with collectors for blinded before/after grading tests; every beta scan should request actual CGC/CBCS outcome feedback.
 - Build evaluation dataset of photos + official grades + grader notes.
 - Add defect bounding boxes manually for first 500 images.
 - Train first specialized defect detector.
